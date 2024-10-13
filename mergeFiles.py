@@ -21,7 +21,7 @@ def merge_files_in_directory(directory_path, output_file):
     print(f'تمامی اطلاعات فایل‌ها با هم ادغام شد و در فایل "{output_file}" ذخیره شد.')
 
 # مسیر پوشه و نام فایل خروجی را وارد کنید
-directory = 'export/mehr/20'
+directory = 'export/mehr/21'
 output_filename = 'MergedData.txt'
 
 merge_files_in_directory(directory, output_filename)
