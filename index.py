@@ -7,7 +7,10 @@ from duplicate_file_remover import remove_duplicate_lines
 
 storyNumber = str(input("Enter Story Number :   "))
 a  = int(input('input viewer count :   '))
-NumberOfTurns = int(ceil(a / 16.5))
+# laptop shercata
+NumberOfTurns = int(ceil(a / 13))
+# Ghaiii dada system
+# NumberOfTurns = int(ceil(a / 16.5))
 
 dataCapturer(storyNumber,NumberOfTurns)
 dataFixer(storyNumber)
